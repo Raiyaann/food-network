@@ -1,9 +1,13 @@
 body{
-    
     font-family: 'Roboto Slab', serif;
-    color: #1e1f1d;
     margin: 0;
+    padding: 0;
+}
+.bg-color{
     background-color: #E1F2F7;
+    margin: 0;
+    padding:0;
+    color: #1e1f1d;
 }
 h1{
     font-size: 50px;
@@ -12,7 +16,6 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
     width: 15%;
 
 }
@@ -21,7 +24,8 @@ h1{
 }
 .flexible-container{
     display: flex;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
     margin-bottom: 0px;
 }
 .half-width{
@@ -32,6 +36,8 @@ h1{
     width: 75%;
     border-radius: 30px;
     margin-left: 80px;
+    margin-bottom: 0px;
+    
 }
 .link-button{
     text-decoration: none;
@@ -39,11 +45,26 @@ h1{
     padding: 7px 20px;
     font-weight: 600;
     border-radius: 20px;
+    margin-top: 30px;
+}
+.bg-image{
+    background-image: url(images/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    text-align: justify;
+    
+}
+#sect-img{
+    width: 300px;
+    margin-bottom: 0;
+    margin-right: 100px;
+    padding-bottom: 0px;
+}
+#text{
+    margin-right: 200px;
+    margin-top: 60px;
+    font-weight: 200;
     
 }
 
-
-.bg-covered{
-    
-   
-}
